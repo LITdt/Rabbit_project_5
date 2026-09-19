@@ -1,0 +1,64 @@
+<!-- This page is the instructions. It should contain:
+  instructions on tasks, wardrobe, shop, interact, and timer pages
+ An explanation of the live happiness meter -->
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rabbit tool instructions</title>
+
+        <link rel="stylesheet" href="instructionsv2.css">
+        
+    <body>
+        <div class="parent-container">
+            <a href="index.html" class="buttonlink" id="homepage">Home</a>
+            <h1 id="instruct">Instructions</h1>
+            <p id="intro">
+                Welcome to the rabbit study tool! <br> There are a few basic rules to the tool.
+            </p>
+            <h2 class="headings" id="navigation"> Navigation</h2>
+            <p id="nav"> Each of the pages are connected to the others they relate to. 
+                The homepage is connected to all pages, so if you get lost, just go back there. </p>
+            <h2 class="headings" id="pags">Pages</h2>
+            <p id="pages"> There are six pages: the instructions page (here), 
+                the homepage, a tasks page, a shop page, an interaction page, 
+                and a timer page. 
+                Each give you different forms of interaction. <br> 
+                The homepage allows customisation of the rabbit's 
+                name, and shows a coin count and buttons to all other pages. <br> 
+                In the tasks page, you will be able to input [3] tasks, and 
+                then head over to the adjustable timer page to complete the 
+                study tasks to get coins. <br> 
+                These coins can be spent on buying food from the shop page - 
+                food that is bought goes to the interact page.
+                The shop page has limited and ordinary items, each having different effects. Limited aren't there for long, so make sure to grab
+                them when you can!
+                <br> The timer page has an adjustable pomodoro timer - you can put in anywhere from 5 minutes to an hour
+                of solid study for a session, and your break time will automatically adjust. The longer you 
+                study, the more coins and happiness you get! <br>
+                The final page is the interact page - you can feed your rabbit with what you bought, increasing their happiness, 
+             and also clean them and pat them for minor happiness boosts.</p>
+            <h2 class="headings" id="warnings"> Warnings</h2>
+            <p id="warn"> If you let your rabbits happiness drop too much, they can become sick. Remember to study often
+                to prevent this!
+            </p>
+            <h2 class="headings" id="others"> Other information</h2>
+            <p id="other">You can rename your rabbit in the text box above its head on the homepage!
+                <br> <br> <b>H A P P Y  <span style="margin-left: 10px;"></span>S T U D Y I N G !!</b> <!--The span gives a larger gap between the words because [spacebar] wasn't cutting it.-->
+            </p>
+        </div>
+        <a href="index.html" class="buttonlink" id="homepage">Back to Home</a>
+        <!-- this is how u link 2 js <script src="script.js></script>"-->
+
+        <div id="night-popup" class="popup-overlay">
+            <div class="popup-content">
+                <h1>Late Night Notice!</h1>
+                <p>It is past 9:00 PM. Please get some rest! Resume studying at 6.30 AM or later.</p>
+                <button id="close-popup">Dismiss</button>
+            </div>
+        </div>
+        <!--link to JS-->
+        <script src="Rabbitdata.js"></script>
+    </body>
+</html>
